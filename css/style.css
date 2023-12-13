@@ -1,0 +1,28 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.parent {
+    background-image: url(../historical-background-1920-x-1200-pyzxip1ouy3jwtni.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.content-change img {
+    width: 150px;
+    filter: drop-shadow(4px 4px 9px #000a);
+    transition: all 0.3s ease-in-out;
+}
+
+button {
+    filter: drop-shadow(4px 4px 9px #000a);
+    background-color: rgb(215, 194, 78);
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(214, 187, 35);
+}

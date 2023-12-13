@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="parent vh-100 w-100 d-flex justify-content-center align-items-center text-center">
+        <div class="parent-content">
+            <div class="container">
+                <h1 class="fw-bolder fs-1 pb-3">Quote of the Day</h1>
+                <p class="muted fs-3 py-3">Press the button below to recieve a random quote!</p>
+                <div id="quote-parent"
+                    class="content-change d-flex justify-content-center align-items-center my-5 pt-5">
+                    <img src="mo-salah.jpeg" alt="oscarwild" id="img-quote" class="rounded-circle me-3 img-thumbnail" />
+                    <div class="quote-content">
+                        <p class="fw-bold fs-3 ms-3 text-capitalize" id="quote-output">“in my mind always i'm the best
+                            player in the wolrd”
+                        </p>
+                        <h6 class="fw-medium fs-5 text-uppercase" id="author-output">mohamed salah</h6>
+                    </div>
+                </div>
+                <button onclick="generateQuotes()" class="border-0 py-3 px-5 rounded-3 text-capitalize fw-medium">read
+                    more quotes</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
